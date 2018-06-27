@@ -47,19 +47,19 @@ function displayResults(results) {
     //1 create the element
     let name = document.createElement('h2')
     let artistName = document.createElement('h3')
-    let released = document.createElement('h4')
+    let originallyReleased = document.createElement('h4')
     let container = document.createElement('div')
 
     //2 adding content to the element
     name.textContent = album.name
     artistName.textContent = album.artistName
-    released.textContent = album.released
+    originallyReleased.textContent = album.originallyReleased
 
     container.className = 'text'
     //3 append to html
     container.appendChild(name)
     container.appendChild(artistName)
-    container.appendChild(released)
+    container.appendChild(originallyReleased)
     lyrics.appendChild(container)
   }
 }
