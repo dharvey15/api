@@ -1,0 +1,94 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(47, 147, 180);
+    /* background-image: url("../5-Napster/blue\ background.png"); */
+  }
+
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    
+  }
+
+.controls{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+  
+  .results {
+    flex: 1;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  form p:nth-of-type(1) {
+    margin-top: 0;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  article p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  article p:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  nav {
+    margin-bottom: 50px;
+  }
+  ​
+  .prev {
+    float: left;
+  }
+
+  .next {
+    float: right;
+  }
+  ​
+  article {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+  }
+
+  img {
+    float: left;
+    margin-left: 20px;
+    max-width: 200px;
+
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; */
+  }
+  .text {
+    float: right;
+    width: 100%;
+  }
+  ​
+  .clearfix {
+    clear: both;
+  }
+
+  input {
+    width:250px;
+    height: 20px;
+  }
