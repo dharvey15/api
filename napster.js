@@ -47,19 +47,22 @@ function displayResults(results) {
     //1 create the element
     let name = document.createElement('h2')
     let artistName = document.createElement('h3')
-    let originallyReleased = document.createElement('h4')
+    // let originallyReleased = document.createElement('h4')
+    let label = document.createElement('h4')
     let container = document.createElement('div')
 
     //2 adding content to the element
     name.textContent = album.name
     artistName.textContent = album.artistName
-    originallyReleased.textContent = album.originallyReleased
+    // originallyReleased.textContent = album.originallyReleased
+    label.textContent = album.label
 
     container.className = 'text'
     //3 append to html
-    container.appendChild(name)
     container.appendChild(artistName)
-    container.appendChild(originallyReleased)
+    container.appendChild(name)
+    // container.appendChild(originallyReleased)
+    container.appendChild(label)
     lyrics.appendChild(container)
   }
 }
